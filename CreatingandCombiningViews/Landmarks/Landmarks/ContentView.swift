@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Turtle Rock").font(.title).foregroundColor(.black).lineLimit(3)
-            Text("Joshua Tree National Park")
+            Text("Joshua Tree National Park").font(.subheadline)
         }
     }
 }
