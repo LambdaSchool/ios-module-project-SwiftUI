@@ -14,6 +14,7 @@
 		1D5709BC246206B500CE2EAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5709BB246206B500CE2EAF /* Preview Assets.xcassets */; };
 		1D5709BF246206B500CE2EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5709BD246206B500CE2EAF /* LaunchScreen.storyboard */; };
 		1D5709CB2462133700CE2EAF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5709CA2462133700CE2EAF /* CircleImage.swift */; };
+		1D5709CD246214DE00CE2EAF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5709CC246214DE00CE2EAF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		1D5709BB246206B500CE2EAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D5709BE246206B500CE2EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D5709C0246206B500CE2EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D5709CA2462133700CE2EAF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = Landmarks/CircleImage.swift; sourceTree = "<group>"; };
+		1D5709CA2462133700CE2EAF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1D5709CC246214DE00CE2EAF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 		1D5709A6246206B000CE2EAF = {
 			isa = PBXGroup;
 			children = (
-				1D5709CA2462133700CE2EAF /* CircleImage.swift */,
 				1D5709B1246206B000CE2EAF /* Landmarks */,
 				1D5709B0246206B000CE2EAF /* Products */,
 			);
@@ -62,6 +63,8 @@
 				1D5709B2246206B000CE2EAF /* AppDelegate.swift */,
 				1D5709B4246206B000CE2EAF /* SceneDelegate.swift */,
 				1D5709B6246206B000CE2EAF /* ContentView.swift */,
+				1D5709CA2462133700CE2EAF /* CircleImage.swift */,
+				1D5709CC246214DE00CE2EAF /* MapView.swift */,
 				1D5709B8246206B500CE2EAF /* Assets.xcassets */,
 				1D5709BD246206B500CE2EAF /* LaunchScreen.storyboard */,
 				1D5709C0246206B500CE2EAF /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				1D5709B3246206B000CE2EAF /* AppDelegate.swift in Sources */,
 				1D5709CB2462133700CE2EAF /* CircleImage.swift in Sources */,
+				1D5709CD246214DE00CE2EAF /* MapView.swift in Sources */,
 				1D5709B5246206B000CE2EAF /* SceneDelegate.swift in Sources */,
 				1D5709B7246206B000CE2EAF /* ContentView.swift in Sources */,
 			);
