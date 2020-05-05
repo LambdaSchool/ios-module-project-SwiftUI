@@ -8,11 +8,19 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Turtle Rock").font(.title).foregroundColor(.black).lineLimit(3)
-            Text("Joshua Tree National Park").font(.subheadline)
+            Text("Turtle Rock")
+                .font(.title)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
         }
     }
 }
