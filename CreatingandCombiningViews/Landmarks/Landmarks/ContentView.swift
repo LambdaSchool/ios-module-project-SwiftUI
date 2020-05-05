@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Kumar Experiment").font(.largeTitle).foregroundColor(.green).lineLimit(3)
+        Text("Kumar Experiment").font(.title).foregroundColor(.green).lineLimit(3)
     }
 }
 
