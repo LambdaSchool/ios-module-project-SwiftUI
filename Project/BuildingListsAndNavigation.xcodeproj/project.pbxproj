@@ -15,6 +15,7 @@
 		DDA6C7FA2461F4560094FD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA6C7F82461F4560094FD88 /* LaunchScreen.storyboard */; };
 		DDA6C8022461F9210094FD88 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6C8012461F9210094FD88 /* CircleImage.swift */; };
 		DDA6C8042461FF160094FD88 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6C8032461FF160094FD88 /* MapView.swift */; };
+		DDA6C806246214830094FD88 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6C805246214830094FD88 /* LandMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DDA6C7FB2461F4560094FD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA6C8012461F9210094FD88 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		DDA6C8032461FF160094FD88 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DDA6C805246214830094FD88 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				DDA6C7EC2461F4540094FD88 /* BuildingListsAndNavigation */,
-				DDA6C7EB2461F4540094FD88 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +56,7 @@
 				DDA6C7EA2461F4540094FD88 /* BuildingListsAndNavigation.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DDA6C7EC2461F4540094FD88 /* BuildingListsAndNavigation */ = {
@@ -65,10 +67,12 @@
 				DDA6C7F12461F4550094FD88 /* ContentView.swift */,
 				DDA6C8032461FF160094FD88 /* MapView.swift */,
 				DDA6C8012461F9210094FD88 /* CircleImage.swift */,
+				DDA6C7EB2461F4540094FD88 /* Products */,
 				DDA6C7F32461F4560094FD88 /* Assets.xcassets */,
 				DDA6C7F82461F4560094FD88 /* LaunchScreen.storyboard */,
 				DDA6C7FB2461F4560094FD88 /* Info.plist */,
 				DDA6C7F52461F4560094FD88 /* Preview Content */,
+				DDA6C805246214830094FD88 /* LandMark.swift */,
 			);
 			path = BuildingListsAndNavigation;
 			sourceTree = "<group>";
@@ -155,6 +159,7 @@
 				DDA6C7EE2461F4550094FD88 /* AppDelegate.swift in Sources */,
 				DDA6C8022461F9210094FD88 /* CircleImage.swift in Sources */,
 				DDA6C8042461FF160094FD88 /* MapView.swift in Sources */,
+				DDA6C806246214830094FD88 /* LandMark.swift in Sources */,
 				DDA6C7F02461F4550094FD88 /* SceneDelegate.swift in Sources */,
 				DDA6C7F22461F4550094FD88 /* ContentView.swift in Sources */,
 			);
