@@ -8,7 +8,12 @@ A view showing the details for a landmark.
 import SwiftUI
 
 struct LandmarkDetail: View {
+    @EnvironmentObject var userData: UserData
     var landmark: Landmark
+
+    var landmarkIndex: Int {
+        userData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
 
     var body: some View {
         VStack {
@@ -17,13 +22,12 @@ struct LandmarkDetail: View {
                 .frame(height: 300)
 
             CircleImage(image: landmark.image)
-                .offset(x: 0, y: -130)
+                .offset(y: -130)
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
                 Text(landmark.name)
                     .font(.title)
-
                 HStack(alignment: .top) {
                     Text(landmark.park)
                         .font(.subheadline)
@@ -43,5 +47,6 @@ struct LandmarkDetail: View {
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkDetail(landmark: landmarkData[0])
+            .environmentObject(UserData())
     }
 }
