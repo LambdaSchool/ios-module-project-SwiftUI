@@ -6,4 +6,12 @@
 //  Copyright © 2020 Libby Thomas. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+import Combine
+
+final class UserData: ObservableObject {
+    
+    @Published var showFavoriteOnly = false
+    @Published var landmarks = landmarkData
+    
+}
