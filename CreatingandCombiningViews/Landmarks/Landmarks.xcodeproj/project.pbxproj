@@ -13,6 +13,7 @@
 		ED1F30C02468E4B2008269F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1F30BF2468E4B2008269F7 /* Assets.xcassets */; };
 		ED1F30C32468E4B2008269F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1F30C22468E4B2008269F7 /* Preview Assets.xcassets */; };
 		ED1F30C62468E4B2008269F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1F30C42468E4B2008269F7 /* LaunchScreen.storyboard */; };
+		ED1F30CE2468E57A008269F7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1F30CD2468E57A008269F7 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED1F30C22468E4B2008269F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED1F30C52468E4B2008269F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1F30C72468E4B2008269F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1F30CD2468E57A008269F7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				ED1F30BB2468E4B0008269F7 /* SceneDelegate.swift */,
 				ED1F30BD2468E4B0008269F7 /* ContentView.swift */,
 				ED1F30BF2468E4B2008269F7 /* Assets.xcassets */,
+				ED1F30CD2468E57A008269F7 /* CircleImage.swift */,
 				ED1F30C42468E4B2008269F7 /* LaunchScreen.storyboard */,
 				ED1F30C72468E4B2008269F7 /* Info.plist */,
 				ED1F30C12468E4B2008269F7 /* Preview Content */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1F30BA2468E4B0008269F7 /* AppDelegate.swift in Sources */,
+				ED1F30CE2468E57A008269F7 /* CircleImage.swift in Sources */,
 				ED1F30BC2468E4B0008269F7 /* SceneDelegate.swift in Sources */,
 				ED1F30BE2468E4B0008269F7 /* ContentView.swift in Sources */,
 			);
