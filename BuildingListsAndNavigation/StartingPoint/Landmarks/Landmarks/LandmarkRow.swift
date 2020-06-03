@@ -2,7 +2,7 @@
 //  LandmarkRow.swift
 //  Landmarks
 //
-//  Created by Bling Morley on 6/2/20.
+//  Created by Cody Morley on 6/2/20.
 //  Copyright © 2020 Apple. All rights reserved.
 //
 
