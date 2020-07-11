@@ -43,3 +43,5 @@ struct LandmarkDetail_Previews: PreviewProvider {
         LandmarkDetail(landmark: landmarkData[0])
     }
 }
+
+// Completed
