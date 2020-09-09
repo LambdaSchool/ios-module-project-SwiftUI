@@ -1,27 +1,21 @@
-//
-//  LandmarkList.swift.swift
-//  Landmarks
-//
-//  Created by BrysonSaclausa on 9/5/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
 
-import Foundation
+Abstract:
+A view showing a list of landmarks.
+*/
+
 import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
         NavigationView {
             List(landmarkData) { landmark in
-                NavigationLink(destination: LandmarkDetail(landmark: landmark)) { //init(destination: Destination, label: () -> Label)
-                    
+                NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                     LandmarkRow(landmark: landmark)
                 }
             }
-            .navigationBarTitle("Landmarks", displayMode: .inline)
-            
-        
-        
+            .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
