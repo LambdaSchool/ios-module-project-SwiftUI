@@ -34,6 +34,7 @@
 		31159CA525098B6D00C44296 /* chilkoottrail copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31159C9825098B6D00C44296 /* chilkoottrail copy.jpg */; };
 		31159CA625098B6D00C44296 /* rainbowlake copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31159C9925098B6D00C44296 /* rainbowlake copy.jpg */; };
 		31159CA725098B6D00C44296 /* umbagog copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31159C9A25098B6D00C44296 /* umbagog copy.jpg */; };
+		31159CA92509906A00C44296 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31159CA82509906A00C44296 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		31159C9825098B6D00C44296 /* chilkoottrail copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chilkoottrail copy.jpg"; sourceTree = "<group>"; };
 		31159C9925098B6D00C44296 /* rainbowlake copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbowlake copy.jpg"; sourceTree = "<group>"; };
 		31159C9A25098B6D00C44296 /* umbagog copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "umbagog copy.jpg"; sourceTree = "<group>"; };
+		31159CA82509906A00C44296 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				31159C70250989B800C44296 /* Landmark.swift */,
 				31159C6E2509898000C44296 /* Data.swift */,
+				31159CA82509906A00C44296 /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				31159C69250987BB00C44296 /* CircleImage.swift in Sources */,
 				31159C2925097F6D00C44296 /* AppDelegate.swift in Sources */,
 				31159C3025097F6D00C44296 /* ContentView.swift in Sources */,
+				31159CA92509906A00C44296 /* UserData.swift in Sources */,
 				31159C2B25097F6D00C44296 /* SceneDelegate.swift in Sources */,
 				31159C652509874C00C44296 /* LandmarkDetail.swift in Sources */,
 				31159C672509875700C44296 /* LandmarkRow.swift in Sources */,
